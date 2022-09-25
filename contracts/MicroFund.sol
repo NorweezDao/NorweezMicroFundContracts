@@ -6,7 +6,7 @@ pragma solidity 0.8.17;
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 // IERC-20 contract
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract NorweezCrowdfund {
     // SafeMath for safe integer operations
@@ -26,7 +26,7 @@ contract NorweezCrowdfund {
     );
 
     function startProject(
-        IERC20 DAI,
+        ERC20 DAI,
         string calldata title,
         string calldata description,
         string calldata imageLink,
@@ -60,7 +60,7 @@ contract Project {
         Fundraising,
         Successful
     }
-    IERC20 private DAI;
+    ERC20 private DAI;
 
     // Initialize public variables
     address payable public creator;
@@ -89,7 +89,7 @@ contract Project {
 
     constructor
     (
-        IERC20 token,
+        ERC20 token,
         address payable projectCreator,
         string memory projectTitle,
         string memory projectDescription,
