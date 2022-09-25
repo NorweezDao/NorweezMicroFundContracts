@@ -66,7 +66,8 @@ Contract deployed to address: 0x...
 
 Check out your newly deployed contract on etherscan.
 ```
-www.rinkeby.etherscan.io/address/[DEPLOYED_CONTRACT_ADDRESS]
+https://mumbai.polygonscan.com/address/0x6fd0ec3af45fd9e82eafec959882a33d87403e56
+https://mumbai.polygonscan.com/address/0x6d087c0c63255c37cd2a2af9e5b784830886bb0a
 ```
 
 You should update your `.env`'s `CONTRACT_ADDRESS` to be your newly deployed contract address.
@@ -83,3 +84,5 @@ npx hardhat verify --network mainnet DEPLOYED_CONTRACT_ADDRESS "Constructor argu
 ```
 Read this [tutorial](https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html) for more info.
 
+
+https://mumbai.polygonscan.com/address/0x6d087c0c63255c37cd2a2af9e5b784830886bb0a
