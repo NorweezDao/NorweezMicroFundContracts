@@ -32,10 +32,8 @@ contract NorweezCrowdfund {
         string calldata imageLink,
         uint amountToRaise
     ) external {
-
         Project newProject = new Project(DAI, payable(msg.sender), title, description, imageLink, amountToRaise);
         projects.push(newProject);
-
         emit ProjectStarted(
             address(newProject),
             msg.sender,

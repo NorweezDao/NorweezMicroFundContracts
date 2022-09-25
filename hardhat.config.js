@@ -11,6 +11,9 @@ const PRIVATE_KEY = '';
 module.exports = {
    defaultNetwork: "mumbai",
    networks: {
+      localhost: {
+         url: "http://localhost:8545"
+      },
       hardhat: {},
       mumbai: {
          url: 'https://polygon-mumbai.infura.io/v3/e4fa10cddeaf401698a3ae52121cdd79',

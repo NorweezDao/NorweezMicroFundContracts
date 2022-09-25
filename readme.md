@@ -1,7 +1,7 @@
 
 
 # 🧰 contracts
-Deployed sample NFT contract can be viewed on [rinkeby.etherscan.io/address/0x0E7121b8aaEBd6F4fAbe13890E33d9E8fD0Fd345](https://rinkeby.etherscan.io/address/0xa55f52461c265e9d838a37a2c886b16431b55661#code)
+Deployed sample NFT contract can be viewed on [rinkeby.etherscan.io/address/](https://rinkeby.etherscan.io/address/#code)
 
 ## Prerequisites
 1. Have access to the public (public wallet address) and private key to your Ethereum account.
@@ -83,19 +83,3 @@ npx hardhat verify --network mainnet DEPLOYED_CONTRACT_ADDRESS "Constructor argu
 ```
 Read this [tutorial](https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html) for more info.
 
-## Set Base URI
-If you want to make a change to the initial base uri you set on deploy, you can update it.
-
-Update the `uri` variable in `scripts/setBaseURI.js` to your new base uri and run the script.
-```
-node scripts/setBaseURI.js
-```
-
-## Set Merkle Root
-Edit `whitelist/giftlist.json` and `whitelist/whitelist.json` to include the addresses you want to be each respective 'whitelist'. To set your whitelists, run the following scripts.
-```
-node scripts/setWhitelistMerkleRoot.js
-node scripts/setGiftMerkleRoot.js
-```
-# Done?
-Are you ready to build the front-end? Head over to [`web`](/web).
