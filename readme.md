@@ -66,8 +66,8 @@ Contract deployed to address: 0x...
 
 Check out your newly deployed contract on etherscan.
 ```
-https://mumbai.polygonscan.com/address/0x6fd0ec3af45fd9e82eafec959882a33d87403e56
-https://mumbai.polygonscan.com/address/0x6d087c0c63255c37cd2a2af9e5b784830886bb0a
+https://mumbai.polygonscan.com/address/0xa55f52461c265e9d838a37a2c886b16431b55661 Projects
+https://mumbai.polygonscan.com/address/0xa5388013E0782862EC2134fE2f9DC5621B3699e2 Contrib
 ```
 
 You should update your `.env`'s `CONTRACT_ADDRESS` to be your newly deployed contract address.
